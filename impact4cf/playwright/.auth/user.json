@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "access_token",
+      "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxMTE1MjM1YTZjNjE0NTRlZmRlZGM0NWE3N2U0MzUxMzY3ZWViZTAiLCJ0eXAiOiJKV1QifQ.eyJyb2xlIjoic3VwZXJfdXNlciIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9maXp6eW8tNTY1ZGYiLCJhdWQiOiJmaXp6eW8tNTY1ZGYiLCJhdXRoX3RpbWUiOjE3NDQwNDg2NzksInVzZXJfaWQiOiJpY2hhbUVFOG9IWlVOV3hYenlCZFNVUzZxeDUzIiwic3ViIjoiaWNoYW1FRThvSFpVTld4WHp5QmRTVVM2cXg1MyIsImlhdCI6MTc0NDA0ODY3OSwiZXhwIjoxNzQ0MDUyMjc5LCJlbWFpbCI6InN1cGVydXNlckBmaXp6eW8uY28iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsic3VwZXJ1c2VyQGZpenp5by5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.IwkhPvRiEzlsHgivJF-6XJvNVrHnf7mjfxZRc-GP6k0YZB7Zrz4jFpeAewCyEd_iEqgznzZ64queI5KfcfW48xEOx_oz__qeooAmOPq8VZU9M2o2cqgvxS_bl6Su7ZnnJ81outg2et6uuXTICyPVdigYS5sGMxwzNkiMKFLwTrbf9cIZvA9Fcg8PT-HZtn3H12LsHfqs9UuODPiXMVBzfNd0G1taYS0WuKSKvUveT60ly_aIKqtYjL_mrNOQSRxImM7u6sLYCAqDEorEYthEXrrC-94kxNnVDIAa25NizvKXcJ1YLrWemMLRbPjvLJInTiGcNwm0EcWIHNPKmIbMsw",
+      "domain": "api.impact-dev.cs.ucl.ac.uk",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://api.impact-dev.cs.ucl.ac.uk",
+      "localStorage": [
+        {
+          "name": "authToken",
+          "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxMTE1MjM1YTZjNjE0NTRlZmRlZGM0NWE3N2U0MzUxMzY3ZWViZTAiLCJ0eXAiOiJKV1QifQ.eyJyb2xlIjoic3VwZXJfdXNlciIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9maXp6eW8tNTY1ZGYiLCJhdWQiOiJmaXp6eW8tNTY1ZGYiLCJhdXRoX3RpbWUiOjE3NDQwNDg2NzksInVzZXJfaWQiOiJpY2hhbUVFOG9IWlVOV3hYenlCZFNVUzZxeDUzIiwic3ViIjoiaWNoYW1FRThvSFpVTld4WHp5QmRTVVM2cXg1MyIsImlhdCI6MTc0NDA0ODY3OSwiZXhwIjoxNzQ0MDUyMjc5LCJlbWFpbCI6InN1cGVydXNlckBmaXp6eW8uY28iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsic3VwZXJ1c2VyQGZpenp5by5jbyJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.IwkhPvRiEzlsHgivJF-6XJvNVrHnf7mjfxZRc-GP6k0YZB7Zrz4jFpeAewCyEd_iEqgznzZ64queI5KfcfW48xEOx_oz__qeooAmOPq8VZU9M2o2cqgvxS_bl6Su7ZnnJ81outg2et6uuXTICyPVdigYS5sGMxwzNkiMKFLwTrbf9cIZvA9Fcg8PT-HZtn3H12LsHfqs9UuODPiXMVBzfNd0G1taYS0WuKSKvUveT60ly_aIKqtYjL_mrNOQSRxImM7u6sLYCAqDEorEYthEXrrC-94kxNnVDIAa25NizvKXcJ1YLrWemMLRbPjvLJInTiGcNwm0EcWIHNPKmIbMsw"
+        }
+      ]
+    }
+  ]
+}

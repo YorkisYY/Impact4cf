@@ -1,0 +1,41 @@
+version: '3.8'
+
+
+services:
+  nextjs:
+    build: 
+      context: .
+    container_name: nextjs
+    restart: always
+    command:
+      sh -c "npm run build && npm run start"
+    ports:
+      - "3000:3000"
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-www:/var/www/certbot
+    environment:
+      DOMAIN_NAME: team05docker.uksouth.cloudapp.azure.com
+    depends_on:
+      - nextjs
+
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-www:/var/www/certbot
+
+    command: certonly --webroot -w /var/www/certbot --email ucabija@ucl.ac.uk --agree-tos --no-eff-email -d team05docker.uksouth.cloudapp.azure.com
+
+
+volumes:
+  certbot-etc:
+  certbot-www:

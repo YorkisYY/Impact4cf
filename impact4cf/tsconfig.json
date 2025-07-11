@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // "jsx": "preserve", // when running  npm run dev it can only be "preserve"
+    "jsx": "preserve", // This is for testing purposes
+    "incremental": true,
+    "baseUrl": "src",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "../@types",
+      "./types",
+      "./node_modules/@testing-library"
+    ],
+    "types": [
+      "jest-dom"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "./jest.setup.js",
+    ".next/types/**/*.ts",
+    "babel.config.js",
+    "./node_modules/cypress",
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "./cypress.config.ts"
+  ]
+}
